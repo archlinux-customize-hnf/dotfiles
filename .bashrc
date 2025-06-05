@@ -4,12 +4,12 @@
 #  _| |_) | (_| \__ \ | | | | | (__
 # (_)_.__/ \__,_|___/_| |_|_|  \___|
 #
-# ---------------------------------------------------------------------
+# -------------------------------------------------------------------------------
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# ---------------------------------------------------------------------
+# -------------------------------------------------------------------------------
 
 # give bash some colors
 RED="\e[38;2;222;50;76m"
@@ -27,10 +27,10 @@ fi
 
 PS1="${YELLOW}\t ${RED}[\u@\h \w\$(__git_ps1 ' (%s)')]${BLUE}\n\$ "
 
-# ---------------------------------------------------------------------
+# -------------------------------------------------------------------------------
 
 # some aliases
 alias grep='grep --color=auto'
-alias lst='(ls -ld --color=always -h --group-directories-first .?*;\
-    ls -l --color=always -h --group-directories-first | grep -v "^\.")'
-
+alias lst='(ls -ldh --color=always --group-directories-first .?* 2>/dev/null;\
+    ls -lh --color=always --group-directories-first 2>/dev/null | grep -v "^\.")'
+alias upgrade='sudo pacman -Syu && yay -Syu'
