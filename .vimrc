@@ -62,4 +62,7 @@ hi SpellBad cterm=underline,bold
 " Settings for Golang / Groff
 autocmd FileType go setlocal noexpandtab
 autocmd BufRead,BufNewFile *.ms,*.man setlocal noexpandtab
+autocmd BufRead,BufNewFile *.ms set filetype=groff
 
+" Setting for auto-commenting the new lines
+autocmd FileType * setlocal formatoptions+=cro
