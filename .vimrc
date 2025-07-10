@@ -41,9 +41,9 @@ nnoremap <F9> za
 vnoremap <F9> zf
 
 " Cursor shape
-" let &t_SI = "\e[6 q"
-" let &t_SR = "\e[4 q"
-" let &t_EI = "\e[2 q"
+let &t_SI = "\e[6 q"
+let &t_SR = "\e[4 q"
+let &t_EI = "\e[2 q"
 
 " Cursor line and cursor column
 set cursorline
