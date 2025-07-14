@@ -50,3 +50,4 @@ alias grep='grep --color=auto'
 alias lst='(ls -ldh --color=always --group-directories-first .?* 2>/dev/null;\
     ls -lh --color=always --group-directories-first 2>/dev/null | grep -v "^\.")'
 alias upgrade='sudo pacman -Syu && yay -Syu'
+alias gitpush='git push github master & git push gitlab master'
