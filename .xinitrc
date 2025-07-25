@@ -14,7 +14,4 @@ feh --no-fehbg --bg-fill --randomize ~/pictures/wallpapers &
 xcompmgr &
 xdman-beta &
 slstatus &
-export GTK_IM_MODULE=ibus &
-export QT_IM_MODULE=ibus &
-export XMODIFIERS=@im=ibus &
 exec dwm
