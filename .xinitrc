@@ -7,9 +7,14 @@
 # --------------------------------------------------------------
 #
 feh --no-fehbg --bg-fill --randomize ~/pictures/wallpapers &
-sleep 0.7
-xrandr --setprovideroutputsource NVIDIA-G0 Intel &
-xrandr --output HDMI-1-0 --mode 1920x1080 --output eDP-1 --off &
+# sleep 0.7
+# xrandr --setprovideroutputsource NVIDIA-G0 Intel &
+# xrandr --output HDMI-1-0 --mode 1920x1080 --output eDP-1 --off &
+# xrandr --output HDMI-1-0 --primary --mode 1920x1080 --output eDP-1 --mode 1920x1080 --right-of HDMI-1-0 &
 xcompmgr &
+xdman-beta &
 slstatus &
+export GTK_IM_MODULE=ibus &
+export QT_IM_MODULE=ibus &
+export XMODIFIERS=@im=ibus &
 exec dwm
