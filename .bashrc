@@ -40,8 +40,7 @@ fi
 
 # PS1="\d \t [\u@\h \w\$(__git_ps1 ' (%s)')]\n\$ "
 # PS1="\n${RED}[👤 \u] ${ORANGE}[🤖 \h] ${YELLOW}[📁 \w] ${GREEN}[🌵 \$(__git_ps1 '%s')] ${PURPLE}[⏰ \d \t] ${BLUE}[🧨💣🚀🌋💥🔥🎉]\n\$ "
-# PS1="\n${RED}[👤 \u] ${ORANGE}[🤖 \h] ${YELLOW}[📁 \w] ${GREEN}[🌵 \$(__git_ps1 '%s')] ${PURPLE}[⏰ \d \t] ${BLUE}[🐺🐎🐯🦁🐻🦬🐘]\n\$ "
-PS1="\n${RED}[👤 \u] ${ORANGE}[🤖 \h] ${YELLOW}[📁 \w] ${GREEN}[🌵 \$(__git_ps1 '%s')] ${PURPLE}[⏰ \d \t] ${BLUE}[🐘🐢🦬🐻🦁🐯🐆🐺]\n\$ "
+PS1="\n${RED}[👤 \u] ${ORANGE}[🤖 \h] ${YELLOW}[📁 \w] ${GREEN}[🌵 \$(__git_ps1 '%s')] ${PURPLE}[⏰ \d \t] ${BLUE}[🐘🦒🦏🦛🦬🦁🐯🐆🐺]\n\$ "
 
 # ----------------------------------
 
